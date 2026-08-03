@@ -14,6 +14,16 @@ Stateless stdio MCP server, four read-only tools for observing Vercel deployment
 [`@addiplus/vercel-deployment-mcp`](https://www.npmjs.com/package/@addiplus/vercel-deployment-mcp)
 and listed in the MCP registry as `io.github.addiplus/vercel-deployment-mcp`.
 
+**[k8s-toolhive-lab](https://github.com/addiplus/k8s-toolhive-lab)**
+First hands-on Kubernetes day, publicly transcribed: a single-node kind cluster, the core
+vocabulary exercised against live workloads, then Stacklok's ToolHive operator running
+vercel-deployment-mcp, the server above, as an MCPServer custom resource. Real MCP handshake
+end to end from the host: initialize, initialized, tools/list with all 4 tools, and a tools/call
+surfacing a designed dummy-token Vercel 403 as a structured MCP error. Stretch goal landed: a
+second MCPServer alongside, two workloads in separate pods, each behind its own proxy Service,
+one operator. A guided session with Claude Code, disclosed in the README, with full command
+transcripts and unsquashed history.
+
 **[llamacpp-batch-invariance](https://github.com/addiplus/llamacpp-batch-invariance)**
 Batch-invariance verifier for llama.cpp continuous batching. Per-cell diffing, a five-verdict
 output contract, and signed GREEN or RED certificates. Mock-sourced passes are non-promotable
