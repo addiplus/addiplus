@@ -3,6 +3,8 @@
 AI-native engineer in Seattle. I build MCP servers, agent tooling, and test harnesses for
 systems that are hard to test.
 
+I have about one year of professional software-engineering experience, beginning part-time in November 2025.
+
 Everything below is public and checkable: test counts, CI runs, registry entries, and commits
 in other people's repositories.
 
