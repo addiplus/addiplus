@@ -1,7 +1,11 @@
 # Joe Smith
 
-AI-native engineer in Seattle. I build MCP servers, agent tooling, and test harnesses for
+**Applied AI Engineer | Agentic Systems, MCP & Full-Stack Development**
+
+Applied AI Engineer in Seattle. I build MCP servers, agent tooling, and test harnesses for
 systems that are hard to test.
+
+At MPI LLC, I am the sole engineer.
 
 I have about one year of professional software-engineering experience, beginning part-time in November 2025.
 
@@ -66,4 +70,5 @@ Writeup: [How I built MCP servers for systems that have no API](https://mcp-cook
 - [mcp-builder](https://github.com/addiplus/mcp-builder), notes on dual-transport MCP servers and
   the OAuth 2.1 ceremony.
 
-Seattle. Open to AI-native engineering work.
+Seattle. Open to applied AI engineering work.
+
