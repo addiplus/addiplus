@@ -16,12 +16,12 @@ in other people's repositories.
 
 **[vercel-deployment-mcp](https://github.com/addiplus/vercel-deployment-mcp)**
 Stateless stdio MCP server, four read-only tools for observing Vercel deployments.
-66 tests, CI green, MIT. Published on npm as
+107 tests, CI green, MIT. Published on npm as
 [`@addiplus/vercel-deployment-mcp`](https://www.npmjs.com/package/@addiplus/vercel-deployment-mcp)
 and listed in the MCP registry as `io.github.addiplus/vercel-deployment-mcp`.
 
 **[k8s-toolhive-lab](https://github.com/addiplus/k8s-toolhive-lab)**
-First hands-on Kubernetes day, publicly transcribed: a single-node kind cluster, the core
+A hands-on Kubernetes lab, publicly transcribed: a single-node kind cluster, the core
 vocabulary exercised against live workloads, then Stacklok's ToolHive operator running
 vercel-deployment-mcp, the server above, as an MCPServer custom resource. Real MCP handshake
 end to end from the host: initialize, initialized, tools/list with all 4 tools, and a tools/call
@@ -54,10 +54,14 @@ Writeup: [How I built MCP servers for systems that have no API](https://mcp-cook
   identifier site in the Python generator plus a bridge fix, preserving BAML wire identity while
   changing host-language spelling.
 - [vercel/ai#15568](https://github.com/vercel/ai/pull/15568), resolve npx and uv ENOENT on
-  Windows via shell spawn. **Open.** +95 / -9, with two platform-mocked tests.
-- [mbachaud/Cymatix-Context#190](https://github.com/mbachaud/Cymatix-Context/pull/190), a
+  Windows via shell spawn. **Closed, not merged.** +95 / -9, with two platform-mocked tests.
+- [mbachaud/Cymatix-Context](https://github.com/mbachaud/Cymatix-Context), eight merged PRs
+  from June to September 2026. The latest,
+  [#460](https://github.com/mbachaud/Cymatix-Context/pull/460), is a test-first follow-up to my
+  own host status panel (#457): four defects and one policy change, each pinned by a failing test
+  before its fix. The first, [#190](https://github.com/mbachaud/Cymatix-Context/pull/190), is a
   Grace Blackwell aarch64 launch-blocking shim, shipped default off so x86_64 does not pay the
-  sync tax. **Merged 2026-06-09.** I am one of two contributors to that project.
+  sync tax. I am one of two contributors to that project.
 
 ## Smaller things
 
