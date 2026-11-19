@@ -53,8 +53,6 @@ Writeup: [How I built MCP servers for systems that have no API](https://mcp-cook
   words in generated SDK identifiers. **Open.** +3,592 / -140 across 13 files, covering every
   identifier site in the Python generator plus a bridge fix, preserving BAML wire identity while
   changing host-language spelling.
-- [vercel/ai#15568](https://github.com/vercel/ai/pull/15568), resolve npx and uv ENOENT on
-  Windows via shell spawn. **Closed, not merged.** +95 / -9, with two platform-mocked tests.
 - [mbachaud/Cymatix-Context](https://github.com/mbachaud/Cymatix-Context), eight merged PRs
   from June to September 2026. The latest,
   [#460](https://github.com/mbachaud/Cymatix-Context/pull/460), is a test-first follow-up to my
